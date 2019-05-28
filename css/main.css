@@ -1,0 +1,313 @@
+@font-face {
+    font-family: segoeui;
+    src: url(../fonts/segoeui.ttf);
+}
+body
+{
+	/*border:solid;*/
+	margin: 0;
+	padding: 0;
+	font-family: segoeui;
+}
+a
+{
+	text-decoration: none;
+}
+header
+{
+	/*border:solid green;*/
+}
+.header-body
+{
+	background-image: url(../images/s.png);
+	/*border:solid yellow;*/
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+.logo
+{
+	display: inline-block;
+	/*border:solid red;*/
+	margin-left: 20%;
+
+}
+.logo img
+{
+	width: 150px;
+}
+
+.sign-in-up
+{
+	/*border:solid;*/
+	width:30%;
+	display: inline-block;
+	margin-right: 20%;
+	float: right;
+}
+.sign-in-up img
+{
+	width: 20px;
+}
+.sign-in-up a
+{
+	cursor: pointer;
+	color:black;
+}
+.sign-in,
+.sign-up
+{
+	/*border: solid;*/
+	display: inline-block;
+}
+.sign-in
+{
+	margin-left: 20%;
+}
+.sign-in p,
+.sign-in img,
+.sign-up p,
+.sign-up img
+{
+	display: inline-block;
+}
+
+.sign-in img,
+.sign-up img
+{
+	vertical-align: text-bottom;
+}
+.sign-in p,
+.sign-up p
+{
+	/*border: solid red;*/
+	padding-left: 10px;
+}
+.slider
+{
+	background-image:url(../images/feature.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:450px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.back
+{
+	/*border:solid red;*/
+	height:500px;
+	background-image: url(../images/mainbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.find-doc
+{	width:97%;
+	margin: auto;
+	border-radius: 5px;
+	padding-bottom: 25px;
+	opacity: 0.7;
+	margin-top:-318px;
+	background-image: url(../images/s.png);
+	padding-bottom:40px;
+	border:1px solid #cf1f50;
+	padding-top:20px;
+}
+.find-doc-title
+{
+
+	/*margin-top: -500px;*/
+	/*position: absolute;*/
+	/*border:solid yellow;*/
+}
+.find-doc-title .its-free,
+.find-doc-title .title
+{
+	display: inline-block;
+}
+
+.its-free
+{
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: #cf1f50;
+	color:white;
+}
+.its-free p
+{
+	padding: 1px;
+	padding-right: 10px;
+	margin: 0;
+	font-size: 10px;
+}
+.title
+{
+	vertical-align: middle;
+	color:#cf1f50;
+	/*width:80%;*/
+	/*border:solid;*/
+	padding-left: 15.5%;
+}
+.title h1
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+.find-doc-body
+{
+	/*padding-left: 8.5%;*/
+	/*border:solid green;*/
+}
+.get-start
+{
+	color:#cf1f50;
+}
+.get-start h2
+{
+	
+	font-size: 20px;
+	font-weight: bolder;
+}
+.selection
+{
+	/*border:solid;*/
+	width:60%;
+	margin:auto;
+}
+form
+{
+	text-align: center;
+}
+.location input,
+.selection select,
+.reason input
+{
+	color:black;
+	width: 100%;
+	padding: 5px;
+	background:transparent;
+	border-radius: 3px;
+	border-style: none;
+	border:1px solid grey;
+}
+
+
+.speciality,
+.doc-gender,
+.reason,
+.location
+{
+	width:35%;
+	/*border:solid red;*/
+	display: inline-block;
+	text-align: left;
+}
+
+.location label
+{
+
+	color:#cf1f50;
+}
+.location input
+{
+	width:100%;
+	color:#010101;
+}
+
+form div:nth-child(3)
+{
+	padding-top: 20px;
+}
+form div:nth-child(3) > input
+{
+	width:30%;
+	padding: 4px;
+	border-style: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color:white;
+	background-color:#cf1f50; 
+}
+
+form div:nth-child(3) > input:hover
+{
+	background-color: #a41d45;
+	transform: translateY(0.5px);
+}
+form div:nth-child(3) > input:active
+{
+	background-color: #a41d45;
+	transform: translateY(1px);
+}
+
+footer
+{
+	/*border:solid red;*/
+	background-color:#363636;
+}
+
+table p
+{
+	margin:0;
+}
+tr > td
+{
+	text-align: left;
+	padding-bottom: 10px;
+}
+tr > td:nth-child(1)
+{
+	width:15%;
+}
+
+ul
+{
+	list-style: none;
+	margin:0;
+	padding: 5px;
+}
+ul li
+{
+	/*border:solid;*/
+	text-align: left;
+	width:29%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.about > h1
+{
+	text-decoration: underline;
+	/*text-align: center;*/
+	margin-left: 12%;
+	font-size: 25px;
+}
+.about,
+.search-speciality,
+.search-by
+{
+	text-align: center;
+	display: inline-block;
+	width:25%;
+	/*border:solid blue;*/
+	color:white;
+	font-size: 13px;
+	vertical-align: middle;
+}
+.search-speciality a,
+.search-by a
+{
+	text-decoration: none;
+	color:white;
+}
+.about
+{
+	text-align: left;
+	width:37%;
+	margin-left: 7%;
+}
+.search-speciality h1,
+.search-by h1
+{
+	text-decoration: underline;
+	font-size: 20px;
+}

@@ -1,0 +1,357 @@
+@font-face {
+    font-family: segoeui;
+    src: url(../../fonts/segoeui.ttf);
+}
+body
+{
+	/*border:solid;*/
+	margin: 0;
+	padding: 0;
+	font-family: segoeui;
+}
+a
+{
+	text-decoration: none;
+}
+.header-body
+{
+	background-image: url(../../images/s.png);
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+.logo
+{
+	display: inline-block;
+	margin-left: 20%;
+}
+.logo img
+{
+	width: 150px;
+}
+
+.sign-in-up
+{
+	width:20%;
+	display: inline-block;
+	margin-right: 20%;
+	float: right;
+}
+.sign-in-up img
+{
+	width: 20px;
+}
+.sign-in-up a
+{
+	cursor: pointer;
+	color:black;
+}
+.sign-in,
+.sign-up
+{
+	display: inline-block;
+}
+.sign-in
+{
+	margin-left: 20%;
+}
+.sign-in p,
+.sign-in img,
+.sign-up p,
+.sign-up img
+{
+	display: inline-block;
+}
+
+.sign-in img,
+.sign-up img
+{
+	vertical-align: text-bottom;
+}
+.sign-in p,
+.sign-up p
+{
+	margin-left: 10px;
+}
+
+
+
+
+
+section
+{
+	padding: 10%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+section h2,
+section h3
+{
+	color: #c81e51;
+}
+.search-by-alphabet,
+.search-by-name
+{
+	border:1px solid #c81e51;
+	background-image: url(../../images/s.png);
+	border-radius: 5px;
+	padding:20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin: auto;
+}
+.name,
+.search
+{
+	display: inline-block;
+	/*border:solid;*/
+	width: 60%;
+	margin-bottom: 15px;
+}
+.search
+{
+	width: 38%;
+	vertical-align: middle;
+}
+.search >input
+{
+	padding: 7px;
+	border-style: none;
+	background-color:#c81e51;
+	color:white;
+	border-radius: 3px;
+	width:120px;
+	box-shadow: 4px 4px 10px grey;
+	cursor: pointer; 
+	float: right;
+}
+.search >input:hover
+{
+	background-color: #a41d45;
+	transform: translateY(0.5px);
+}
+.search >input:active
+{
+	transform: translateY(1px);
+}
+.name label
+{
+	color: #c81e51;
+	font-size: 13px;
+}
+.name input
+{
+	outline: none;
+	padding:7px;
+	border-radius: 3px;
+	border-style: none;
+	border:1px solid #c81e51;
+	background: transparent;
+	width: 70%;
+}
+.search-by-alphabet
+{
+	margin: auto;
+	margin-top: 40px;
+	width: 95%;
+	padding-bottom: 40px;
+
+	/*border:solid;*/
+}
+.search-by-alphabet h3
+{
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	/*border:solid red;*/
+	background-color:#363636;
+}
+
+table p
+{
+	margin:0;
+}
+tr > td
+{
+	text-align: left;
+	padding-bottom: 10px;
+}
+tr > td:nth-child(1)
+{
+	width:15%;
+}
+
+ul
+{
+	list-style: none;
+	margin:0;
+	padding: 5px;
+}
+ul li
+{
+	/*border:solid;*/
+	text-align: left;
+	width:29%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.about > h1
+{
+	text-decoration: underline;
+	/*text-align: center;*/
+	margin-left: 12%;
+	font-size: 25px;
+}
+.about,
+.search-speciality,
+.search-by
+{
+	text-align: center;
+	display: inline-block;
+	width:25%;
+	color:white;
+	font-size: 13px;
+	vertical-align: middle;
+}
+.search-speciality a,
+.search-by a
+{
+	text-decoration: none;
+	color:white;
+}
+.about
+{
+	text-align: left;
+	width:37%;
+	margin-left: 7%;
+}
+.search-speciality h1,
+.search-by h1
+{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+
+section.search-doctor
+{
+	/*border:solid;*/
+	padding: 50px;
+	padding-left: 28px;
+	text-align: center;
+	padding-right: 0px;
+}
+.doctors
+{
+	text-align: left;
+	border:1px solid #c81e51;
+	background-image: url(../../images/s.png);
+	box-shadow: 5px 5px 15px grey;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-right: 30px;
+	display: inline-block;
+	width: 27%;
+
+}
+.doctors p
+{
+	/*border:solid;*/
+	margin: 0;
+	margin-bottom: 3px;
+}
+.profile
+{
+	border:	solid grey;
+	border-radius: 150px;
+	padding: 10px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.doctors h1
+{
+	display: inline-block;
+	vertical-align: middle;
+	color:#c81e51;
+	margin-left: 10px;
+	/*border:solid;*/
+	margin-top: 10px;
+}
+.doctors h3
+{
+	color:#c81e51;
+	/*border:solid;*/
+	margin: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.but
+{
+	width: 60%;
+	margin: auto;
+}
+.doctors button
+{
+	border:none;
+	outline: none;
+	background-color: #c81e51;
+	margin-top: 20px;
+	cursor: pointer;
+	padding: 7px;
+	width: 100%;
+	color: white;
+	border-radius: 3px;
+}
+.doctors button:hover
+{
+	background-color: #a41d45;
+	transform: translateY(0.5px);
+}
+.doctors button:active
+{
+	transform: translateY(1px);
+}
+.p
+{
+	color:#a41d45;
+	display: inline-block;
+}
+.a
+{
+	padding-left: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.personal-info div:nth-child(3)
+{
+	margin-top: 20px;
+	/*border:solid yellow;*/
+}
+
+.career-info
+{
+	/*border:solid green;*/
+}
+

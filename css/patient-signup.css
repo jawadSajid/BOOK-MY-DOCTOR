@@ -1,0 +1,298 @@
+@font-face {
+    font-family: segoeui;
+    src: url(../fonts/segoeui.ttf);
+}
+body
+{
+	/*border:solid;*/
+	margin: 0;
+	padding: 0;
+	font-family: segoeui;
+}
+a
+{
+	text-decoration: none;
+}
+.header-body
+{
+	background-image: url(../images/s.png);
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+.logo
+{
+	display: inline-block;
+	margin-left: 20%;
+}
+.logo img
+{
+	width: 150px;
+}
+
+.sign-in-up
+{
+	width:20%;
+	display: inline-block;
+	margin-right: 20%;
+	float: right;
+}
+.sign-in-up img
+{
+	width: 20px;
+}
+.sign-in-up a
+{
+	cursor: pointer;
+	color:black;
+}
+.sign-in,
+.sign-up
+{
+	display: inline-block;
+}
+.sign-in
+{
+	margin-left: 20%;
+}
+.sign-in p,
+.sign-in img,
+.sign-up p,
+.sign-up img
+{
+	display: inline-block;
+}
+
+.sign-in img,
+.sign-up img
+{
+	vertical-align: text-bottom;
+}
+.sign-in p,
+.sign-up p
+{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+section
+{
+	/*border:solid;*/
+	padding: 20px;
+}
+.patient-sign-up
+{
+	margin-left: 40px;
+	border-radius: 5px;
+	background-image: url(../images/s.png); 
+	padding: 20px;
+	padding-top: 0;
+	width: 30%;
+	box-shadow: 5px 5px 15px grey;
+	border:1px solid #c81e51;
+
+	display: inline-block;
+	/*border:solid red;*/
+}
+.patient-sign-up>div >h1
+{
+	margin-bottom: 10px;
+}
+.patient-sign-up>div
+{
+	color:#c81e51;
+	border-bottom: 1px solid #c81e51;
+	font-size: 20px;
+}
+.patient-sign-up label
+{
+	font-size: 14px;
+}
+.patient-sign-up label,
+.patient-sign-up h2
+{
+	color: #c81e51;
+}
+.patient-sign-up h3
+{
+	color: #c81e51;
+	margin:0;
+	font-size: 15px;
+}
+
+.name input,
+.email-pass input,
+.date-of-birth input,
+.mob-num input,
+.address-lines input,
+.post input,
+.town input
+{
+	width: 98%;
+	border-style: none;
+	border:1px solid #c81e51;
+	padding: 7px;
+	padding-right: 0;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	background: transparent;
+	border-radius: 3px;
+	outline: none;
+}
+.date-of-birth input
+{
+	color:grey;
+}
+.sex input
+{
+	cursor: pointer;
+}
+.name,
+.email-pass,
+.sex,
+.date-of-birth,
+.mob-num,
+.address-lines,
+.post,
+.town 
+{
+	margin-bottom: 10px;
+}
+
+.submit
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.submit input
+{
+	width:70%;
+	padding:7px;
+	background-color: #c81e51;
+	color:white;
+	border-style: none;
+	border-radius: 3px; 
+	cursor: pointer;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.submit input:hover
+{
+	background-color: #a41d45;
+	transform: translateY(0.5px);
+}
+.submit input:active
+{
+	transform: translateY(1px);
+}
+
+
+
+.image
+{
+	display: inline-block;
+	vertical-align: top;
+	/*border:solid;*/
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	/*border:solid red;*/
+	background-color:#363636;
+}
+
+table p
+{
+	margin:0;
+}
+tr > td
+{
+	text-align: left;
+	padding-bottom: 10px;
+}
+tr > td:nth-child(1)
+{
+	width:15%;
+}
+
+ul
+{
+	list-style: none;
+	margin:0;
+	padding: 5px;
+}
+ul li
+{
+	/*border:solid;*/
+	text-align: left;
+	width:29%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.about > h1
+{
+	text-decoration: underline;
+	/*text-align: center;*/
+	margin-left: 12%;
+	font-size: 25px;
+}
+.about,
+.search-speciality,
+.search-by
+{
+	text-align: center;
+	display: inline-block;
+	width:25%;
+	/*border:solid blue;*/
+	color:white;
+	font-size: 13px;
+	vertical-align: middle;
+}
+.search-speciality a,
+.search-by a
+{
+	text-decoration: none;
+	color:white;
+}
+.about
+{
+	text-align: left;
+	width:37%;
+	margin-left: 7%;
+}
+.search-speciality h1,
+.search-by h1
+{
+	text-decoration: underline;
+	font-size: 20px;
+}
